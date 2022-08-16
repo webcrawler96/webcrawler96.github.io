@@ -83,6 +83,8 @@
 	}
 
 	ul {
+		color:#9a83bc;
+		font-size: 0.8em;
 		margin: 0 auto;
 		width: calc(50em - 50px);
 		padding: 1em 4em 1em 4em;
@@ -91,7 +93,10 @@
 		border-width: 0.2em;
 		list-style-type: none;
 	}
-
+	ol {
+		color:rgb(182, 129, 185);
+		font-size: x-small;
+	}
 	button {
 		position: sticky;
 		top: 1em;
