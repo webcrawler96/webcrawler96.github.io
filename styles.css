@@ -125,6 +125,6 @@
 	}
 	/* Page Background */
 	body {
-		background-image: url('/path/to/image.jpg');
+		background-image: url('https://github.com/webcrawler96/webcrawler96.github.io/blob/main/assets/bg/test.png');
 		background-size: cover;
 	}
