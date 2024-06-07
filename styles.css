@@ -10,7 +10,7 @@
 		background-color: #e5e2db;
 		font-family: 'Silkscreen';
 	}
-
+	
 	html a  {
 		color: #88c0bd;
 	}
@@ -122,4 +122,9 @@
 	.unselectable {
 		user-select: none;
 		text-align: center;
+	}
+	/* Page Background */
+	body {
+		background-image: url('/path/to/image.jpg');
+		background-size: cover;
 	}
