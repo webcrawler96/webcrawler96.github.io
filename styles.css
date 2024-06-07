@@ -127,7 +127,7 @@
 
 	/* Page Background */
 	body {
-		background-image: url('assets/bg/2.png');
+		background-image: url(assets/bg/2.png);
 		background-size: cover;
 	}
 
