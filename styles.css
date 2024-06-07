@@ -6,8 +6,7 @@
 	}
 
 	html {
-		color: #0F0F0F;
-		background-color: #e5e2db;
+		color: #f90808;
 		font-family: 'Silkscreen';
 	}
 	
@@ -16,21 +15,18 @@
 	}
 
 	html a:visited {
-		color: #9a83bc;
+		color: #5f1cc3;
 	}
 
 	.dark-mode {
-		color: #F0F0F0;
-  	background-color: #0F0F0F;
+	
+  		background-color: #0F0F0F;
   }
 
 	.dark-mode a:visited {
 		color: #F0F0F0;
 	}
 
-	.dark-mode a {
-		color: #F0F0F0;
-	}
 
 	/* == COLORS ======================= */
 
@@ -41,6 +37,10 @@
 
 	a {
 		text-decoration: none;
+	}
+
+	body {
+		color:beige
 	}
 
 	li a {
@@ -117,14 +117,45 @@
 	.title {
 		text-align: center;
 		padding: 2em 0em 2em 0em;
+		color:beige
 	}
 
 	.unselectable {
 		user-select: none;
 		text-align: center;
 	}
+
 	/* Page Background */
 	body {
-		background-image: url('assets/bg/test.png');
+		background-image: url('assets/bg/2.png');
 		background-size: cover;
+	}
+
+	/* Header and footer adjustments*/
+
+	body {
+		min-height: 100vh;
+		margin: 0;
+	  }
+	  
+	header {
+		min-height: 50px;
+		background: lightcyan;
+	}
+	  
+	footer {
+		min-height: 50px;
+		/*background: PapayaWhip;*/
+	}
+	  
+	  
+	  /* The article fills all the space between header & footer */
+	  
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+	  
+	main {
+		flex: 1;
 	}
