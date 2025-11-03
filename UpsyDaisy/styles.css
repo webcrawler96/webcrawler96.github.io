@@ -1,13 +1,13 @@
 
 	/* == COLORS ======================= */
 	@font-face {
-		font-family: 'Silkscreen'; /*a name to be used later*/
-		src: url(fonts/Silkscreen-Regular.ttf); /*URL to font*/
+		font-family: 'Reina Sans'; /*a name to be used later*/
+		src: url(fonts/reina-sans.ttf); /*URL to font*/
 	}
 
 	html {
 		color: #f90808;
-		font-family: 'Silkscreen';
+		font-family: 'Reina Sans';
 	}
 	
 	html a  {
@@ -31,19 +31,20 @@
 	/* == COLORS ======================= */
 
 	div {
-		margin: 0 auto;
+		margin: auto;
 		width: calc(57.5em - 50px);
 	}
 
 	a {
-		text-decoration: none;
+		/*text-decoration: none;*/
+		text-align: center;
 	}
 
 	body {
 		color:beige
 	}
 
-	li a {
+	a {
 		font-size: 1.25em;
 	}
 
@@ -65,7 +66,7 @@
 		margin: 0.1em 0em 0.1em 0em;
 	}
 
-	a h3 {
+	h3 {
 		font-size: 1.25em;
 		margin: 0.1em 0em 0.1em 0em;
 	}
@@ -74,8 +75,8 @@
 		text-align: center;
 		color: rgb(112, 148, 168);
 		font-size: 1.4em;
-		margin: 0.6em 0em 0.6em 0em;
 		padding: 0.5em;
+		width: auto;
 	}
 
 	footer {
@@ -112,6 +113,7 @@
 
 	.centered {
 		text-align: center;
+		margin: auto;
 	}
 
 	.title {
@@ -127,17 +129,26 @@
 
 	/* Page Background */
 	body {
-		background-image: url(assets/bg/2.png);
+		background-image: url(assets/bg/8.png);
 		background-size: cover;
 	}
 
+	.tttinfo {
+		text-align: center;
+	}
 	/* Header and footer adjustments*/
 
 	body {
 		min-height: 100vh;
-		margin: 0;
+		margin: auto;
+		text-align: center;
 	  }
-	  
+	
+	p1 {
+		margin: auto;
+		text-align: center;
+	}
+
 	header {
 		min-height: 50px;
 		background: lightcyan;
