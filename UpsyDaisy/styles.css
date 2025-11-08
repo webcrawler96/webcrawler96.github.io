@@ -1,13 +1,13 @@
 
 	/* == COLORS ======================= */
 	@font-face {
-		font-family: 'Reina Sans'; /*a name to be used later*/
-		src: url(fonts/reina-sans.ttf); /*URL to font*/
+		font-family: 'Gabriela'; /*a name to be used later*/
+		src: url(https://fonts.google.com/specimen/Gabriela); /*URL to font*/
 	}
 
 	html {
 		color: #f90808;
-		font-family: 'Reina Sans';
+		font-family: 'Gabriela';
 	}
 	
 	html a  {
@@ -73,7 +73,7 @@
 
 	p1,p2 {
 		text-align: center;
-		color: rgb(112, 148, 168);
+		color: whitesmoke;
 		font-size: 1.4em;
 		padding: 0.5em;
 		width: auto;
@@ -84,7 +84,7 @@
 	}
 
 	ul {
-		color:#9a83bc;
+		color:whitesmoke;
 		font-size: 0.8em;
 		margin: 0 auto;
 		width: calc(50em - 50px);
@@ -127,14 +127,38 @@
 		text-align: center;
 	}
 
+	.tttclassgroup_machinist {
+		color: whitesmoke;
+		font-family: balsamiq sans;
+	}
+
+	.tttclassgroup_knight {
+		color: whitesmoke;
+		font-family: Croissant One, serif;
+	}
+
+	.tttclassgroup_mancers2 {
+		color: whitesmoke;
+		font-family: Macondo, cursive;
+		font-weight: bold;
+	}
 	/* Page Background */
 	body {
-		background-image: url(assets/bg/8.png);
-		background-size: cover;
+		background-image: url(assets/bg/bgpattern1.png);
+		background-repeat: repeat;
 	}
 
 	.tttinfo {
 		text-align: center;
+		color: whitesmoke;
+	}
+
+	.tttstatdef {
+		text-align: center;
+		color: whitesmoke;
+		padding: 12px;
+		margin: 8px;
+
 	}
 	/* Header and footer adjustments*/
 
